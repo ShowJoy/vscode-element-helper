@@ -6,8 +6,8 @@ import {
     SnippetString, Range
 } from 'vscode';
 import Resource from './resource';
-import * as TAGS from 'element-helper-json/element-tags.json';
-import * as ATTRS from 'element-helper-json/element-attributes.json';
+import * as TAGS from 'element-helper-json-new/element-tags.json';
+import * as ATTRS from 'element-helper-json-new/element-attributes.json';
 
 const prettyHTML = require('pretty');
 const Path = require('path');
